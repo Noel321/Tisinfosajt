@@ -1,0 +1,83 @@
+.main-container {
+    width: 1200px;
+    min-height: 100px;
+    margin: 5em auto;
+    background: #fff;
+    text-align: left;
+}
+
+.header-container {
+    min-height: 25px;
+    height: 100px;
+    font-family: 'arial', sans-serif;
+}
+
+.title {
+    font-size: 3em;
+    color: #1e73be;
+}
+
+caption {
+    font-size: 2em;
+    color: #1e73be;
+}
+
+.logga-bild {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 100x;
+    height: 50px;
+}
+
+table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.print {
+    position: absolute;
+    top: 170px;
+}
+
+.elevuppgifter, .personnummer {
+    width: 500px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 5em auto;
+    text-align: left;
+}
+
+.villkorspapper {
+    display:flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.elevuppgifter, .personnummer {
+    width: 50%;
+}
+
+
+
+.flex,
+.flex-align-center,
+.flex-content-center,
+.flex-content-start,
+.flex-content-end,
+.flex-content-space-between,
+.flex-content-space-around,
+.flex-row,
+.flex-column,
+.flex-grow { display: flex !important; }
+
+.flex-align-center { align-items: center; }
+.flex-content-center { justify-content: center; }
+.flex-content-start { justify-content: flex-start; }
+.flex-content-end { justify-content: flex-end; }
+.flex-content-space-between { justify-content: space-between; }
+.flex-content-space-around { justify-content: space-around; }
+.flex-grow { flex-grow: 1; }
+
+.flex-row    { flex-direction: column; }
+.flex-column { flex-direction: row; }
